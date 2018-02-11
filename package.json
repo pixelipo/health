@@ -1,0 +1,41 @@
+{
+  "name": "health",
+  "version": "0.1.0",
+  "description": "Display and analyze health and fitness data",
+  "main": "index.js",
+  "scripts": {
+    "dev": " webpack-dev-server --inline --progress --config webpack.conf.js",
+    "start": "npm run build && npm run dev",
+    "build": "webpack --progress --config webpack.conf.js",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixelipo/health.git"
+  },
+  "keywords": [
+    "vue",
+    "nextcloud",
+    "health",
+    "mi",
+    "band",
+    "fitness",
+    "chart"
+  ],
+  "author": "Marin Treselj <marin@pixelipo.com>",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/pixelipo/health/issues"
+  },
+  "homepage": "https://github.com/pixelipo/health#readme",
+  "dependencies": {
+    "vue": "^2.5.2",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.1"
+  }
+}
